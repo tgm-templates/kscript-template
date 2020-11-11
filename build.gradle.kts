@@ -8,9 +8,10 @@ repositories {
 }
 
 dependencies {
-    implementation("org.jetbrains.kotlin:kotlin-script-runtime")
-    implementation("org.jetbrains.kotlin:kotlin-reflect")
+    implementation(kotlin("script-runtime"))
+    implementation(kotlin("reflect"))
     implementation("khttp:khttp:1.0.0")
+    testImplementation("org.junit.jupiter:junit-jupiter:5.7.0")
 }
 
 sourceSets.getByName("main").java.srcDirs("src")
