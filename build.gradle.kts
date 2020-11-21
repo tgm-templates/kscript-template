@@ -11,6 +11,7 @@ dependencies {
     implementation(kotlin("script-runtime"))
     implementation(kotlin("reflect"))
     implementation("khttp:khttp:1.0.0")
+    implementation("io.github.cdimascio:dotenv-kotlin:6.2.1")
     testImplementation("org.junit.jupiter:junit-jupiter:5.7.0")
 }
 
